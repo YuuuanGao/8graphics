@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLOv5 in p5.js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>  <!-- 引入 p5.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.0.0"></script> <!-- 引入 TensorFlow.js CDN -->
+    <script src="script.js"></script>   <!-- 引入主逻辑脚本 -->
+</head>
+<body>
+    <h1>YOLOv5 in p5.js</h1>
+    <p>正在加载模型，请稍候...</p>
+</body>
+</html>

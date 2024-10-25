@@ -1,0 +1,21 @@
+let model;
+
+async function preload() {
+  // 加载转换后的 YOLO 模型
+  model = await tf.loadGraphModel('tfjs_model/model.json');
+}
+
+function setup() {
+  createCanvas(640, 480);
+  preload().then(() => {
+    console.log("模型加载成功");
+    // 继续添加检测逻辑
+  }).catch((error) => {
+    console.error("模型加载失败:", error);
+  });
+}
+
+function draw() {
+  background(220);
+  // 其他绘制逻辑
+}
